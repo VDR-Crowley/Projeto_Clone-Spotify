@@ -24,7 +24,7 @@
   </head>
   <body>
     <header> <!-- Inicio do cabeçalho -->
-      <nav class="navbar navbar-expand-sm navbar-light fixed-top navbar-transparente">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
         <div class="container"> <!-- Inicio do container -->
         
           <!-- Logo -->
@@ -47,7 +47,7 @@
               <li class="nav-item divisor"></li>
 
               <li class="nav-item"> <a href="" class="nav-link">Inscrever-se</a> </li>
-              <li class="nav-item"> <a href="" class="nav-link btn btn-outline">Entrar</a> </li>
+              <li class="nav-item"> <a href="" class="nav-link">Entrar</a> </li>
             </ul>
           </div>
         
@@ -71,20 +71,24 @@
       </div> <!-- Fim do container -->
     </section> <!-- Fim da seção -->
 
-    <section id="servicos">
-      <div class="container">
-        <div class="row">
+    <section id="servicos"> <!-- Inicio da seção serviços -->
+      <div class="container"> <!-- Inicio do container -->
+        <div class="row"> <!-- Inicio da row -->
           
-          <div class="col-md-6">
-            <div class="row albuns">
+          <div class="col-md-6"> <!-- Inicio coluna 6 -->
+            <div class="row albuns"> <!-- Inicio albuns 1-->
               <div class="col-md-6"><img src="imagens/img1.jpg" class="img-fluid d-none d-md-block"></div>
               <div class="col-md-6"><img src="imagens/img2.jpg" class="img-fluid d-none d-md-block"></div>
-            </div>
-            <div class="row albuns">
-              <div class="col-md-6"><img src="imagens/img3.jpg" class="img-fluid d-none d-md-block"></div>
-              <div class="col-md-6"><img src="imagens/img4.jpg" class="img-fluid d-none d-md-block"></div>
-            </div>
-          </div>
+            </div> <!-- Fim albuns 1-->
+            <div class="row albuns"> <!--Inicio albuns 2-->
+              <div class="col-md-6">
+                <img src="imagens/img3.jpg" class="img-fluid d-none d-md-block">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/img4.jpg" class="img-fluid d-none d-md-block">
+              </div>
+            </div> <!-- Fim albuns 2-->
+          </div> <!-- Fim coluna 6 -->
 
           <div class="col-md-6">
             <h2>O que o Spotify tem?</h2>
@@ -99,9 +103,9 @@
             <h3>Novos lançamentos</h3>
             <p>Escute os novos lançamentos de singles e álbuns da semana e veja o que está bombando no Top 50.</p>
           </div>
-        </div>
-      </div>
-    </section>
+        </div> <!-- Fim do container -->
+      </div> <!-- Fim do container -->
+    </section> <!-- Fim da seção serviços -->
 
     <section id="recursos"> <!-- Inicio da seção sobre -->
       <div class="container"> <!-- Inicio do container -->
@@ -133,6 +137,61 @@
         </div> <!-- Fim da row -->
       </div> <!-- Fim do container -->
     </section> <!-- Fim da seção sobre -->
+
+    <footer id="rodape"> <!-- Inicio do rodapé -->
+      <div class="container"> <!-- Inicio do container -->
+        <div class="row"> <!-- Inicio da row -->
+          
+          <div class="col-md-8"> <!-- Inicio da col-md-8 -->
+            
+            <div class="row">
+
+              <div class="col-md-3">
+                <img src="imagens/spotify.svg" width="142" class="img-fluid">
+              </div>
+
+              <div class="col-md-3">
+                <h4 class="mt-2">Company</h4>
+                <ul class="navbar-nav">
+                  <li><a href="">Sobre</a></li>
+                  <li><a href="">Empregos</a></li>
+                  <li><a href="">Imprensa</a></li>
+                  <li><a href="">Novidades</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-md-3">
+                <h4 class="mt-2">Comunidades</h4>
+                <ul class="navbar-nav">
+                  <li><a href="">Artistas</a></li>
+                  <li><a href="">Desenvolvedores</a></li>
+                  <li><a href="">Marcas</a></li>
+                </ul>
+              </div>
+              
+              <div class="col-md-3">
+                <h4 class="mt-2">Links Uteis</h4>
+                <ul class="navbar-nav">
+                  <li><a href="">Ajuda</a></li>
+                  <li><a href="">Presentes</a></li>
+                  <li><a href="">Player da web</a></li>
+                </ul>
+              </div>
+            </div>
+            
+          </div> <!-- Fim da col-md-8 -->
+
+          <div class="col-md-4 d-flex justify-content-end">
+            <ul>
+              <li><a href=""><img src="imagens/instagram.png" class="img-fluid"></a></li>
+              <li><a href=""><img src="imagens/twitter.png" class="img-fluid"></a></li>
+              <li><a href=""><img src="imagens/facebook.png" class="img-fluid"></a></li>
+            </ul>
+          </div>
+
+        </div> <!-- Fim da row -->
+      </div> <!-- Fim do container -->
+    </footer> <!-- Fim do rodapé-->
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

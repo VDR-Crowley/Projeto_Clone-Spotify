@@ -120,6 +120,41 @@ li.divisor {
 	padding-left: 80px;
 }
 
+/*rodapé
+---------------------------*/
+footer {
+	background: #000;
+	padding: 50px 0 20px 0;
+	position: relative;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+
+
 /*tipografia
 ---------------------------*/
 h1 {
@@ -145,7 +180,12 @@ h3 {
 @media (max-width: 575.98px) { 
 	.btn-custom{
 		margin: 10px 15px;
+		font-size: 1em;
 	}
+	#servicos h2 {
+		font-size: 2.7em;
+	}
+
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -156,12 +196,22 @@ h3 {
 	.btn-custom{
 		margin: 10px 15px;
 	}
+	
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) { 
 	h1 {
 		font-size: 4em;
+	}
+	#servicos h2 {
+		font-size: 2.2em;
+	}
+	#servicos h3 {
+		font-size: 1.8em;
+	}
+	li a img {
+		width: 40px;
 	}
  }
 
