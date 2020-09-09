@@ -76,6 +76,10 @@ li.divisor {
 	color: black;
 }
 
+.carousel-control-prev, .carousel-control-next {
+	width: 5%;
+} 
+
 /*estrutura de conteudos
 ------------------------------*/
 #servicos  {
